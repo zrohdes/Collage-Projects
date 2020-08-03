@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: url(../do.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 50px;
+}
+ul li{
+	display: inline-flex;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 30px;
+	border: 3px solid ;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.main1
+{
+	max-width: 1200px;
+	margin: auto;
+}
